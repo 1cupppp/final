@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin:0;
+	padding: 0;
+	background-color: #DBE4C6;
+}
+h2 {
+	font-size: xx-large;
+	color: yellow;
+}
+p {
+	color: white;
+}
+.featured-image {
+	object-fit: cover;
+	width: 300px;
+	height: 100px;
+}
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #94AF9F;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: black;
+}
+#about {
+	height: 400px;
+	background-image: linear-gradient(#30384180 100%, blue 0), url(/assets/image/abt.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+#about p {
+	font-size: xx-large;
+}
+#exp {
+	height: 300px;
+	background-image: linear-gradient(#5d6161de 100%, blue 0), url(/assets/image/exp.jpg);;
+	background-size: cover;
+}
+#exp p{
+	font-size: x-large;
+}
+#edu {
+	height: 200px;
+	background-image: linear-gradient(#5d6161de 100%, blue 0), url(/assets/image/edu.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#edu p{
+	font-size: large;
+}
+#skills {
+	background-color: white;
+}
+#int {
+	height: 200px;
+	background-image: linear-gradient(#5d6161de 100%, blue 0), url(/assets/image/grass.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#int p{
+	font-size: x-large;
+}
+#award {
+	background-color: black;
+}
+.card {
+	background-color: #BBD6B8;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.jumbotron {
+	padding: 20px;
+	background-color: #94AF9F;
+	text-align: center;
+	color: white;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+}
+
+nav li {
+	display: inline;
+	text-style-type: none;
+	margin-right: 20px;
+}
+
+nav {
+	background-color: #94AF9F;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+header {
+	display: inline;
+}
